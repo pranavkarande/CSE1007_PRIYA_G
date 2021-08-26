@@ -1,11 +1,12 @@
 /**
  * Q1. Read the radius and print the area of a circle.
  */
+
 import java.util.Scanner;
 // Importing Math library for constant PI
 import java.lang.Math;
 
-public class Q1{
+public class Q1 {
     public static void main(String args[]) {
         // Reading the radius
         System.out.print("Enter radius of circle: ");
