@@ -7,16 +7,16 @@ import java.lang.Math;
 
 public class Q1{
     public static void main(String args[]) {
-        // Read the radius
+        // Reading the radius
         System.out.print("Enter radius of circle: ");
         Scanner radius_scanner = new Scanner(System.in);
         double radius = radius_scanner.nextDouble();
         radius_scanner.close();
 
-        // Calculate area
+        // Calculating area
         double area = Math.PI * radius * radius;
 
-        // Print area
+        // Printing area
         System.out.println("Area of circle with radius " + radius + " is " + area + ".");
     }
 }
