@@ -1,5 +1,5 @@
 /**
- * Write a Java program to remove the duplicate elements of a given array and return
+ * Q3. Write a Java program to remove the duplicate elements of a given array and return
  * the new length of the array.
  */
 
@@ -36,10 +36,10 @@ public class Q3 {
 
         // Printing the new array
         System.out.println("The array without duplicate elements is:");
-        for (int i = 0; i < out_len - 2; ++i) {
+        for (int i = 0; i < out_len - 1; ++i) {
             System.out.print(out[i] + ", ");
         }
         System.out.println(out[out_len - 1]);
-        System.out.println("It's length is " + (out_len - 1) + ".");
+        System.out.println("It's length is " + out_len + ".");
     }
 }

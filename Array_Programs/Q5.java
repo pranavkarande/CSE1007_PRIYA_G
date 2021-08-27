@@ -1,5 +1,5 @@
 /**
- * Display the sum of rows in a matrix
+ * Q5. Display the sum of rows in a matrix
  */
 
 import java.util.Scanner;

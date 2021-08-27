@@ -1,5 +1,5 @@
 /**
- * Display the transpose of a matrix.
+ * Q6. Display the transpose of a matrix.
  */
 
 import java.util.Scanner;
